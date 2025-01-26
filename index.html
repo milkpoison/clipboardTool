@@ -6,6 +6,7 @@
     <title>剪贴板</title>
     <style>
         body {
+            display: block;
             margin: 0;
             padding: 10px;
         }
@@ -15,8 +16,9 @@
         }
 
         #clipboardContent {
-            display: inline-block;
-            word-wrap: break-word;
+            display: block;
+            min-height: 100px;
+            vertical-align: top;
         }
 
         img {

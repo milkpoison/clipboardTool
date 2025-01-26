@@ -42,7 +42,7 @@ ipcRenderer.on('clipboard-content', (event, content) => {
 // 调整窗口大小的函数
 function adjustWindowSize() {
     const width = clipboardContentDiv.offsetWidth + 20; // 添加一些边距
-    const height = clipboardContentDiv.offsetHeight + 20;
+    const height = clipboardContentDiv.offsetHeight + 30;
     ipcRenderer.send('resize-window', width, height);
 }
 
