@@ -11,6 +11,7 @@
   "author": "milkPoison",
   "license": "ISC",
   "dependencies": {
+    "@arco-design/web-react": "^2.65.0",
     "electron": "^34.0.1"
   }
 }
