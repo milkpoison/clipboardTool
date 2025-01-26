@@ -42,4 +42,3 @@ ipcMain.on('read-clipboard-text', (event) => {
     const text = clipboard.readText();
     event.sender.send('clipboard-text', text);
 });
-// test
